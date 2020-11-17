@@ -1,3 +1,6 @@
+/*
+	This is the left-side 8mm linear rod holder for the x-axis gantry.
+*/
 difference(){
     
 union(){

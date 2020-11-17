@@ -1,3 +1,6 @@
+/*
+	This is the right-side 8mm linear rod holder for the x-axis gantry. It also hold one NEMA 8.
+*/
 difference(){
     
 union(){

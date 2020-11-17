@@ -1,3 +1,6 @@
+/*
+	This is an adapter for the x-axis gantry that holds the Micromot, can be easily modified to use any dremel alternative.
+*/
 rotate([270,0,90]){
 difference(){
 union(){   

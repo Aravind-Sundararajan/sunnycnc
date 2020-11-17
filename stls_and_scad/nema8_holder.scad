@@ -1,3 +1,6 @@
+/*
+	This is a bracket that connects NEMA 8 motors to 2020 extrusions.
+*/
 union(){
     
 difference(){

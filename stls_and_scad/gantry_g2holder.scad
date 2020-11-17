@@ -1,3 +1,6 @@
+/*
+	This is the g2 timing belt holder for the cnc surface/bed on the y-axis. It is not tall enough in the current iteration.
+*/
 for (x = [-1,1]){
     translate([x*9,0,0]){
         for (i = [-6:2:6]){

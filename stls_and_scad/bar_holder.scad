@@ -1,3 +1,6 @@
+/*
+	This is a bracket to stabilize a 8 mm linear rail.
+*/
 union(){
     
 difference(){
