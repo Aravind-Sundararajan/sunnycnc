@@ -5,9 +5,9 @@ union(){
     
 difference(){
     translate([-10,0,0]){
-cube([20,20,10]);
+cube([20,40,10]);
     }
-    translate([0,9.625,-5]){
+    translate([0,29,-5]){
     cylinder(30,d=9.25,true,$fn=100);
     }
     
