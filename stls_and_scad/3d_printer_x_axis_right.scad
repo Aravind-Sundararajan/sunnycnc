@@ -5,98 +5,103 @@ difference(){
     
 union(){
 translate([10,-10,0]){
-cylinder(45,r=10,$fn = 360);
+cylinder(50,r=14,$fn = 360);
 }
-translate([-20,-10,0]){
-cube([40,20,45]);
+translate([-30,-10,0]){
+cube([40,26,50]);
 }
-cube([40,10,45]);
-translate([10,-20,40]){
-cube([30,20,5]);
+translate([-4,-4,0]){
+cube([50,20,50]);
+}
+translate([10,-24,45]){
+cube([36,25,5]);
 }
 
 translate([-10,0,20]){
 cube([20,18,20],center=true,$fn = 360);
 }
+translate([-30,3,0]){
+cube([25,20,50]);
+}
 }
 
 //vertical bar hole
 translate([10,-10,20]){
-cylinder(70,d=9,center=true,$fn = 360);
+cylinder(70,d=22.2,center=true,$fn = 360);
 }
 
 
 //horizontal bar holes
-translate([10,5,35]){
+translate([20,6,42]){
 rotate([0,90,0]){
-cylinder(70,d=9,$fn = 360);
+cylinder(50,d=9,$fn = 360);
 }
 }
 
-translate([10,5,5]){
+translate([20,6,8]){
 rotate([0,90,0]){
-cylinder(70,d=9,$fn = 360);
+cylinder(50,d=9,$fn = 360);
 }
 }
 
 //horizontal slot
-translate([-15,5,20]){
-cube([120,8,20],center=true,$fn = 360);
+translate([-12,6,25]){
+cube([120,9,20],center=true,$fn = 360);
 }
 
 
-translate([-10,45,20]){
+translate([-18,48,26]){
 rotate([90,0,0]){
 cylinder(70,d=18,$fn = 360);
 }
 }
 
-translate([-10+8,45,20+8]){
+translate([-18+8,48,26+8]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-10-8,45,20+8]){
+translate([-18-8,48,26+8]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-10+8,45,20-8]){
+translate([-18+8,48,26-8]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-10-8,45,20-8]){
+translate([-18-8,48,26-8]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-11,-10,20]){
-cube([22,34,51],center=true,$fn = 360);
+translate([-18,-6,25]){
+cube([28,34,51],center=true,$fn = 360);
 }
 
 
 //screw holes
 
-translate([30,-10,30]){
+translate([35,-14,30]){
 cylinder(140,d=11,center=true,$fn = 360);
 }
 
 t = 1 +5.5 + 1.5;
-translate([30,-10 +t,30]){
+translate([35,-14 +t,30]){
 cylinder(70,d=3,$fn = 360,center=true);
 }
-translate([30,-10 -t,30]){
+translate([35,-14 -t,30]){
 cylinder(70,d=3,$fn = 360,center=true);
 }
-translate([30+t,-10 ,30]){
+translate([35+t,-14 ,30]){
 cylinder(70,d=3,$fn = 360,center=true);
 }
-translate([30-t,-10 ,30]){
+translate([35-t,-14 ,30]){
 cylinder(70,d=3,$fn = 360,center=true);
 }
 
