@@ -4,8 +4,8 @@
 union(){
     
 difference(){
-    translate([-11,0,0]){
-cube([22,40,10]);
+    translate([0,21.5,2]){
+cube([25,43,4],true);
     }
     x= 29;
         translate([8,x+8,-5]){
@@ -21,14 +21,14 @@ cube([22,40,10]);
     cylinder(30,d=3,true,$fn=100);
     }
     translate([0,x,-5]){
-    cylinder(30,d=18,true,$fn=100);
+    cylinder(30,d=19,true,$fn=100);
     }
     
 }
 translate([0,-5,15]){ 
    
     difference(){
-        cube([22,10,30],true);
+        cube([25,10,30],true);
 //      rotate([90,0,0]){
 //          translate([0,8,-10]){
 //        cylinder(30,d=7,true,$fn=100);

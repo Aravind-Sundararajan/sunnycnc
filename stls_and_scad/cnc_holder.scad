@@ -75,19 +75,19 @@ union(){
 
 translate([0,0,17]){
 rotate([0,90,0]){
-cylinder(71,d=22.2,$fn = 360,center=true);
+cylinder(71,d=22.3,$fn = 360,center=true);
 }
 }
 
 translate([0,0,-17]){
 rotate([0,90,0]){
-cylinder(71,d=22.2,$fn = 360,center=true);
+cylinder(71,d=11,$fn = 360,center=true);
 }
 }
 
 //cable
-translate([0,3,-2.5]){
-cube([100,25,5],center = true);
+translate([0,3,-7]){
+cube([100,25,7],center = true);
 }
 
 translate([0,3,3.5]){
@@ -101,9 +101,9 @@ cube([4,25,8],center = true);
 }
 
 for (x = [-1,1]){
-    translate([x*14,0,-5]){
-        for (i = [-10:2:10]){
-            translate([i,0,7]){
+    translate([x*18,0,-5]){
+        for (i = [-15:2:15]){
+            translate([i,0,7.9]){
                 cube([1,30,3],center=true);
             }
         }

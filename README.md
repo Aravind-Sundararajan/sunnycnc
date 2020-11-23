@@ -7,11 +7,11 @@ I will update the bom as time goes on, but in the current iteration:
 * proxxon micromot 50
 * raspberry pi3 b+
 * 2 adafruit motor hats to drive motors through i2c
-* 4 NEMA-8 stepper motors
+* 4 NEMA-17 stepper motors
 
 **Power Delivery**
 * 12V rail for the micromot (you do NOT need to buy their proprietary power supply) 
-* 5V rail for nema 8 steppers.
+* 12V rail for nema 17 steppers.
 * a separate 5V rail to power the rpi (it is a better idea to have the brains and the guts on different rails)
 
 Gcode interpreter written in python.
