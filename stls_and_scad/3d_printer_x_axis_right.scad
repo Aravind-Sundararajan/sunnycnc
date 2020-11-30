@@ -7,8 +7,8 @@ union(){
 translate([10,-10,0]){
 cylinder(50,r=14,$fn = 360);
 }
-translate([-30,-10,0]){
-cube([40,26,50]);
+translate([-45,-10,0]){
+cube([60,26,50]);
 }
 translate([-4,-4,0]){
 cube([50,20,50]);
@@ -21,7 +21,7 @@ translate([-10,0,20]){
 cube([20,18,20],center=true,$fn = 360);
 }
 translate([-30,3,0]){
-cube([25,20,50]);
+//cube([25,20,50]);
 }
 }
 
@@ -32,13 +32,13 @@ cylinder(70,d=22.2,center=true,$fn = 360);
 
 
 //horizontal bar holes
-translate([20,6,42]){
+translate([35,6,42]){
 rotate([0,90,0]){
 cylinder(50,d=9,$fn = 360);
 }
 }
 
-translate([20,6,8]){
+translate([35,6,8]){
 rotate([0,90,0]){
 cylinder(50,d=9,$fn = 360);
 }
@@ -50,38 +50,38 @@ cube([120,9,20],center=true,$fn = 360);
 }
 
 
-translate([-18,48,26]){
+translate([-23,48,26]){
 rotate([90,0,0]){
-cylinder(70,d=18,$fn = 360);
+cylinder(70,d=30,$fn = 360);
 }
 }
 
-translate([-18+8,48,26+8]){
-rotate([90,0,0]){
-cylinder(70,d=3,$fn = 360);
-}
-}
-
-translate([-18-8,48,26+8]){
+translate([-23+15.5,48,26+15.5]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-18+8,48,26-8]){
+translate([-23-15.5,48,26+15.5]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-18-8,48,26-8]){
+translate([-23+15.5,48,26-15.5]){
 rotate([90,0,0]){
 cylinder(70,d=3,$fn = 360);
 }
 }
 
-translate([-18,-6,25]){
-cube([28,34,51],center=true,$fn = 360);
+translate([-23-15.5,48,26-15.5]){
+rotate([90,0,0]){
+cylinder(70,d=3,$fn = 360);
+}
+}
+
+translate([-26,-6,25]){
+cube([44,34,51],center=true,$fn = 360);
 }
 
 
