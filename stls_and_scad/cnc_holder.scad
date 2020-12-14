@@ -81,13 +81,13 @@ cylinder(71,d=22.3,$fn = 360,center=true);
 
 translate([0,0,-17]){
 rotate([0,90,0]){
-cylinder(71,d=11,$fn = 360,center=true);
+cylinder(71,d=22.3,$fn = 360,center=true);
 }
 }
 
 //cable
-translate([0,3,-7]){
-cube([100,25,7],center = true);
+translate([0,3,-3]){
+cube([100,25,4],center = true);
 }
 
 translate([0,3,3.5]){
